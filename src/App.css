@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+.header-per{
+  color: #34252f;
+
+}
+.mod{
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url(./rick-and-morty-31043.png);
+}
+.personajes{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  border: 1px solid black;
+  background-color: #519872;
+}
+.personajes>div{
+  font-size: 20px;
+  color:#34252f;
+  padding:7px;
+  margin: 20px;
+  background-color: #A4B494;
+
+}
+.header{
+  color: #BEC5AD;
+}
+.paginas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #3B5249;
+}
+.botones{
+  margin-left: 40px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
